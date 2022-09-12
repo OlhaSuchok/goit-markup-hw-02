@@ -1,0 +1,21 @@
+body {
+background-color: aqua;    
+}
+
+.main-section 
+{
+    background-color: blueviolet;
+}
+.main-section:hover  
+{
+color: coral;
+}
+
+.button:focus  
+{
+ color: greenyellow;
+}
+
+.link:active {
+    color: lime;
+}
