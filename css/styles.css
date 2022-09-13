@@ -1,0 +1,21 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font:'Raleway', sans-serif;
+}
+
+.logo {
+    font-family: var(--secondary-font);
+}
+
+.link,
+.title,
+.button,
+.subject,
+.heading,
+.caption,
+.caption-list,
+.caption-text,
+.summary {
+    font-family: var(--main-font);
+}
+    
