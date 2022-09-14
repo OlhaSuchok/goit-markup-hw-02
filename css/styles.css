@@ -1,3 +1,4 @@
+/* Variables */
 :root {
     --main-font: 'Roboto', sans-serif;
     --secondary-font:'Raleway', sans-serif;
@@ -11,56 +12,18 @@
     --nav-color: #2196F3;
 }
 
+/* Body */
 body {
+    color: var(--main-color);
     font-style: normal;
-}
-
-.logo {
-    font-family: var(--secondary-font);
-    color: #000000;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-}
-
-.link,
-.title,
-.button-hero
-.button,
-.subject,
-.heading,
-.caption,
-.caption-list,
-.caption-text,
-.summary {
     font-family: var(--main-font);
 }
+
+/* Color */
+.logo {
+    color: #000000;
+} 
     
-header {
-    background-color: var(--accent-color);
-}
-
-footer,
-.section-hero {
-    background-color: #2F303A;
-}
-
-.function-section,
-.section-criterion {
-    background-color: #F5F5F5;
-}
-
-.section-command,
-.button {
-    background-color: #F5F4FA;
-}
-
-.project-section {
- background-color: #F5F5F5;
-}
-
 .logotype {
     color: var(--nav-color);
 }
@@ -68,8 +31,8 @@ footer,
 .studio,
 .portfolio,
 .contacts,
-.heading,
 .subject,
+.heading,
 .caption,
 .caption-list {
     color: var(--main-color);
@@ -86,9 +49,9 @@ footer,
     color: var(--accent-color);
 }
 
-.link-footer[target] {
+.list .link-footer.address {
     color: var(--accent-color);
-}
+} 
 
 .link-mail {
     color: rgba(0, 0, 0, 0.2);
@@ -101,6 +64,48 @@ footer,
 
 .link-footer {
     color: rgba(255, 255, 255, 0.6);
+} 
+
+/* Background-color */
+header {
+    background-color: var(--accent-color);
+}
+
+.section-hero,
+.footer {
+    background-color: #2F303A;
+}
+
+.section-criterion,
+.function-section,
+.project-section {
+    background-color: #F5F5F5;
+}
+
+.section-command,
+.button {
+    background-color: #F5F4FA;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*________________________________________________________________________________*/
+
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
 } 
 
 .logo-footer {
