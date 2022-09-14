@@ -3,12 +3,31 @@
     --secondary-font:'Raleway', sans-serif;
 }
 
+:root {
+    --main-color: #212121;
+    --secondary-color:#757575;
+    --accent-color: #FFFFFF;
+    --adress-color: rgba(255, 255, 255, 0.6);
+    --nav-color: #2196F3;
+}
+
+body {
+    font-style: normal;
+}
+
 .logo {
     font-family: var(--secondary-font);
+    color: #000000;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 .link,
 .title,
+.button-hero
 .button,
 .subject,
 .heading,
@@ -19,3 +38,239 @@
     font-family: var(--main-font);
 }
     
+header {
+    background-color: var(--accent-color);
+}
+
+footer,
+.section-hero {
+    background-color: #2F303A;
+}
+
+.function-section,
+.section-criterion {
+    background-color: #F5F5F5;
+}
+
+.section-command,
+.button {
+    background-color: #F5F4FA;
+}
+
+.project-section {
+ background-color: #F5F5F5;
+}
+
+.logotype {
+    color: var(--nav-color);
+}
+
+.studio,
+.portfolio,
+.contacts,
+.heading,
+.subject,
+.caption,
+.caption-list {
+    color: var(--main-color);
+}
+
+.link-tel,
+.heading-text,
+.caption-text {
+    color: var(--secondary-color);
+}
+
+.title,
+.logo-footer {
+    color: var(--accent-color);
+}
+
+.link-footer[target] {
+    color: var(--accent-color);
+}
+
+.link-mail {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.button,
+.button-hero {
+    color: var(--main-color);
+}
+
+.link-footer {
+    color: rgba(255, 255, 255, 0.6);
+} 
+
+.logo-footer {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.subject,
+.caption {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.caption-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.caption-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.studio,
+.portfolio,
+.contacts,
+.link-mail,
+.link-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.heading-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.link-footer {
+    color: var(--adress-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+}
+
+.button-hero {
+    background-color: var(--nav-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.summary {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.summary-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+}
+
+.site-nav .link.studio.current {
+    color: var(--nav-color);
+}
+
+.site-nav .link.portfolio.current {
+    color: var(--nav-color);
+}
+
+.list .link-mail.current {
+    color: var(--nav-color);
+}
+
+.list .button.current {
+    color: var(--accent-color);
+    background-color: var(--nav-color)
+}
+
+.studio:hover,
+.studio:focus {
+    color: var(--nav-color);
+}
+
+.portfolio:hover,
+.portfolio:focus {
+    color: var(--nav-color);
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--nav-color);
+}
+
+.link-mail:hover,
+.link-mail:focus {
+    color: var(--nav-color);
+}
+
+.link-tel:hover,
+.link-tel:focus  {
+    color: var(--nav-color);
+}
+
+.button-hero:hover,
+.button-hero:focus {
+    color: var(--main-color);
+    background-color: #F5F5F5;
+}
+
+.button:hover,
+.button:focus {
+    color: var(--accent-color);
+    background-color: var(--nav-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.hide {
+    display: none;
+}
