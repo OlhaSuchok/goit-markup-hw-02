@@ -15,7 +15,6 @@
 /* Body */
 body {
     color: var(--main-color);
-    font-style: normal;
     font-family: var(--main-font);
 }
 
@@ -26,16 +25,6 @@ body {
     
 .logotype {
     color: var(--nav-color);
-}
-
-.studio,
-.portfolio,
-.contacts,
-.subject,
-.heading,
-.caption,
-.caption-list {
-    color: var(--main-color);
 }
 
 .link-tel,
@@ -57,17 +46,17 @@ body {
     color: rgba(0, 0, 0, 0.2);
 }
 
+.link-footer {
+    color: rgba(255, 255, 255, 0.6);
+} 
+
 .button,
 .button-hero {
     color: var(--main-color);
 }
 
-.link-footer {
-    color: rgba(255, 255, 255, 0.6);
-} 
-
 /* Background-color */
-header {
+.header {
     background-color: var(--accent-color);
 }
 
@@ -87,18 +76,7 @@ header {
     background-color: #F5F4FA;
 }
 
-
-
-
-
-
-
-
-
-
-
-/*________________________________________________________________________________*/
-
+/* Font */
 .logo {
     font-family: var(--secondary-font);
     font-weight: 700;
@@ -108,11 +86,15 @@ header {
     text-decoration: none;
 } 
 
-.logo-footer {
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+.studio,
+.portfolio,
+.contacts,
+.link-mail,
+.link-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     text-decoration: none;
 }
 
@@ -123,6 +105,20 @@ header {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.06em;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.heading-text {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 
 .subject,
@@ -143,38 +139,31 @@ header {
 }
 
 .caption-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
-.heading {
+.summary {
     font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 
-.studio,
-.portfolio,
-.contacts,
-.link-mail,
-.link-tel {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+.summary-text {
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+}
+
+.logo-footer {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     text-decoration: none;
-}
-
-.heading-text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
 }
 
 .link-footer {
@@ -204,20 +193,7 @@ header {
     letter-spacing: 0.03em;
 }
 
-.summary {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-}
-
-.summary-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.9;
-    letter-spacing: 0.03em;
-}
-
+/* Navigation */
 .site-nav .link.studio.current {
     color: var(--nav-color);
 }
@@ -272,6 +248,12 @@ header {
     background-color: var(--nav-color);
 }
 
+.button,
+.button-hero {
+    cursor: pointer;
+}
+
+/* Bucket */
 .list {
     list-style: none;
 }
