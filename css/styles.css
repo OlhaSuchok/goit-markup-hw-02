@@ -2,9 +2,6 @@
 :root {
     --main-font: 'Roboto', sans-serif;
     --secondary-font:'Raleway', sans-serif;
-}
-
-:root {
     --main-color: #212121;
     --secondary-color:#757575;
     --accent-color: #FFFFFF;
@@ -22,9 +19,15 @@ body {
 .logo {
     color: #000000;
 } 
-    
+
 .logotype {
     color: var(--nav-color);
+}
+
+.studio,
+.portfolio,
+.contacts {
+    color: var(--main-color);
 }
 
 .link-tel,
@@ -38,12 +41,17 @@ body {
     color: var(--accent-color);
 }
 
-.list .link-footer.address {
+.link-footer.address {
     color: var(--accent-color);
 } 
 
-.link-mail {
-    color: rgba(0, 0, 0, 0.2);
+.link-mail,
+.link-tel {
+    color: var(--secondary-color);
+}
+
+.summary-text {
+    color: var(--secondary-color);
 }
 
 .link-footer {
@@ -159,6 +167,7 @@ body {
 }
 
 .logo-footer {
+    font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -167,6 +176,7 @@ body {
 }
 
 .link-footer {
+    font-family: var(--main-font);
     color: var(--adress-color);
     font-size: 14px;
     line-height: 1.7;
@@ -193,15 +203,11 @@ body {
 }
 
 /* Navigation */
-.site-nav .link.studio.current {
+.link.studio.current {
     color: var(--nav-color);
 }
 
-.site-nav .link.portfolio.current {
-    color: var(--nav-color);
-}
-
-.list .link-mail.current {
+.link.portfolio.current {
     color: var(--nav-color);
 }
 
@@ -232,6 +238,16 @@ body {
 
 .link-tel:hover,
 .link-tel:focus  {
+    color: var(--nav-color);
+}
+
+.link-footer.address:hover,
+.link-footer.address:focus {
+    color: var(--nav-color);
+}
+
+.link-footer:hover,
+.link-footer:focus  {
     color: var(--nav-color);
 }
 
