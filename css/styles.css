@@ -27,7 +27,7 @@ body {
 .studio,
 .portfolio,
 .contacts {
-    color: var(--main-color);
+    color: inherit;
 }
 
 .link-tel,
